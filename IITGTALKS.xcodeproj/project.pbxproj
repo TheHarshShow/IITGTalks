@@ -3,27 +3,57 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F10A61023B394C40087AEF2 /* Comments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F10A60F23B394C40087AEF2 /* Comments.swift */; };
+		1F10A61323B396670087AEF2 /* CommentsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F10A61223B396670087AEF2 /* CommentsTableViewCell.swift */; };
+		1F10A61523B3AF960087AEF2 /* CurrentUserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F10A61423B3AF960087AEF2 /* CurrentUserProfile.swift */; };
 		1F16F23D239466EC00C24FEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F16F23C239466EC00C24FEA /* AppDelegate.swift */; };
 		1F16F23F239466EC00C24FEA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F16F23E239466EC00C24FEA /* SceneDelegate.swift */; };
-		1F16F241239466EC00C24FEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F16F240239466EC00C24FEA /* ViewController.swift */; };
+		1F16F241239466EC00C24FEA /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F16F240239466EC00C24FEA /* SignUpViewController.swift */; };
 		1F16F244239466EC00C24FEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F16F242239466EC00C24FEA /* Main.storyboard */; };
 		1F16F246239466F200C24FEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F16F245239466F200C24FEA /* Assets.xcassets */; };
 		1F16F249239466F200C24FEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F16F247239466F200C24FEA /* LaunchScreen.storyboard */; };
+		1F16F2512394682100C24FEA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F16F2502394682000C24FEA /* GoogleService-Info.plist */; };
+		1F3D279323A39E3E0093B44B /* Posts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3D279223A39E3E0093B44B /* Posts.swift */; };
+		1F3D279523A3A7410093B44B /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3D279423A3A7410093B44B /* PostTableViewCell.swift */; };
+		1F50430F23AA9D8C0012B12B /* globalFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F50430E23AA9D8C0012B12B /* globalFunctions.swift */; };
+		1F50431123AAC0CE0012B12B /* PostPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F50431023AAC0CE0012B12B /* PostPageViewController.swift */; };
+		1F517C62239FD74A001BFFDA /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F517C61239FD74A001BFFDA /* UploadViewController.swift */; };
+		1FCE9EBC239DA0420001FCC6 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCE9EBB239DA0420001FCC6 /* MainTabBarController.swift */; };
+		1FCE9EBE239DA4B00001FCC6 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCE9EBD239DA4B00001FCC6 /* ProfileViewController.swift */; };
+		1FCE9EC2239E779A0001FCC6 /* ExtraAssets in Resources */ = {isa = PBXBuildFile; fileRef = 1FCE9EC1239E779A0001FCC6 /* ExtraAssets */; };
+		1FEC24422394FF3D002FE991 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEC24412394FF3D002FE991 /* LoginViewController.swift */; };
+		86CE0F2841D72752C716348C /* Pods_IITGTALKS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D31440D59D4F9EC461DC1B00 /* Pods_IITGTALKS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F10A60F23B394C40087AEF2 /* Comments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comments.swift; sourceTree = "<group>"; };
+		1F10A61223B396670087AEF2 /* CommentsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsTableViewCell.swift; sourceTree = "<group>"; };
+		1F10A61423B3AF960087AEF2 /* CurrentUserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUserProfile.swift; sourceTree = "<group>"; };
 		1F16F239239466EC00C24FEA /* IITGTALKS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IITGTALKS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F16F23C239466EC00C24FEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F16F23E239466EC00C24FEA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1F16F240239466EC00C24FEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F16F240239466EC00C24FEA /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		1F16F243239466EC00C24FEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F16F245239466F200C24FEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F16F248239466F200C24FEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F16F24A239466F200C24FEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F16F2502394682000C24FEA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1F3D279223A39E3E0093B44B /* Posts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Posts.swift; sourceTree = "<group>"; };
+		1F3D279423A3A7410093B44B /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		1F50430E23AA9D8C0012B12B /* globalFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = globalFunctions.swift; sourceTree = "<group>"; };
+		1F50431023AAC0CE0012B12B /* PostPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostPageViewController.swift; sourceTree = "<group>"; };
+		1F517C61239FD74A001BFFDA /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
+		1FCE9EBB239DA0420001FCC6 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		1FCE9EBD239DA4B00001FCC6 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		1FCE9EC1239E779A0001FCC6 /* ExtraAssets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ExtraAssets; sourceTree = "<group>"; };
+		1FEC24412394FF3D002FE991 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3A69776BAD78E21B7E1025D9 /* Pods-IITGTALKS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IITGTALKS.release.xcconfig"; path = "Target Support Files/Pods-IITGTALKS/Pods-IITGTALKS.release.xcconfig"; sourceTree = "<group>"; };
+		D31440D59D4F9EC461DC1B00 /* Pods_IITGTALKS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IITGTALKS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6DFF4020DF92E8E334740EE /* Pods-IITGTALKS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IITGTALKS.debug.xcconfig"; path = "Target Support Files/Pods-IITGTALKS/Pods-IITGTALKS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +61,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86CE0F2841D72752C716348C /* Pods_IITGTALKS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F10A61123B396430087AEF2 /* PostPageView */ = {
+			isa = PBXGroup;
+			children = (
+				1F50431023AAC0CE0012B12B /* PostPageViewController.swift */,
+				1F10A61223B396670087AEF2 /* CommentsTableViewCell.swift */,
+			);
+			path = PostPageView;
+			sourceTree = "<group>";
+		};
 		1F16F230239466EC00C24FEA = {
 			isa = PBXGroup;
 			children = (
 				1F16F23B239466EC00C24FEA /* IITGTALKS */,
 				1F16F23A239466EC00C24FEA /* Products */,
+				A9F593B3ECBA6C2FD597B0F1 /* Pods */,
+				7D83DE375C44FC66F91E8ECC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +98,68 @@
 		1F16F23B239466EC00C24FEA /* IITGTALKS */ = {
 			isa = PBXGroup;
 			children = (
+				1F3D279123A39E2A0093B44B /* Models */,
+				1F16F2522394D74000C24FEA /* ViewControllers */,
 				1F16F23C239466EC00C24FEA /* AppDelegate.swift */,
+				1FCE9EBB239DA0420001FCC6 /* MainTabBarController.swift */,
 				1F16F23E239466EC00C24FEA /* SceneDelegate.swift */,
-				1F16F240239466EC00C24FEA /* ViewController.swift */,
 				1F16F242239466EC00C24FEA /* Main.storyboard */,
 				1F16F245239466F200C24FEA /* Assets.xcassets */,
+				1FCE9EC1239E779A0001FCC6 /* ExtraAssets */,
 				1F16F247239466F200C24FEA /* LaunchScreen.storyboard */,
 				1F16F24A239466F200C24FEA /* Info.plist */,
+				1F16F2502394682000C24FEA /* GoogleService-Info.plist */,
 			);
 			path = IITGTALKS;
+			sourceTree = "<group>";
+		};
+		1F16F2522394D74000C24FEA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1F10A61123B396430087AEF2 /* PostPageView */,
+				1F3D279623A3BAAB0093B44B /* ProfileView */,
+				1F16F240239466EC00C24FEA /* SignUpViewController.swift */,
+				1FEC24412394FF3D002FE991 /* LoginViewController.swift */,
+				1F517C61239FD74A001BFFDA /* UploadViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1F3D279123A39E2A0093B44B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1F3D279223A39E3E0093B44B /* Posts.swift */,
+				1F50430E23AA9D8C0012B12B /* globalFunctions.swift */,
+				1F10A60F23B394C40087AEF2 /* Comments.swift */,
+				1F10A61423B3AF960087AEF2 /* CurrentUserProfile.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1F3D279623A3BAAB0093B44B /* ProfileView */ = {
+			isa = PBXGroup;
+			children = (
+				1FCE9EBD239DA4B00001FCC6 /* ProfileViewController.swift */,
+				1F3D279423A3A7410093B44B /* PostTableViewCell.swift */,
+			);
+			path = ProfileView;
+			sourceTree = "<group>";
+		};
+		7D83DE375C44FC66F91E8ECC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D31440D59D4F9EC461DC1B00 /* Pods_IITGTALKS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9F593B3ECBA6C2FD597B0F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6DFF4020DF92E8E334740EE /* Pods-IITGTALKS.debug.xcconfig */,
+				3A69776BAD78E21B7E1025D9 /* Pods-IITGTALKS.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +169,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F16F24D239466F200C24FEA /* Build configuration list for PBXNativeTarget "IITGTALKS" */;
 			buildPhases = (
+				869AD3CECFBDCB00C752E898 /* [CP] Check Pods Manifest.lock */,
 				1F16F235239466EC00C24FEA /* Sources */,
 				1F16F236239466EC00C24FEA /* Frameworks */,
 				1F16F237239466EC00C24FEA /* Resources */,
+				34D6D940D6CB86F2FD918CA6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,7 +222,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FCE9EC2239E779A0001FCC6 /* ExtraAssets in Resources */,
 				1F16F249239466F200C24FEA /* LaunchScreen.storyboard in Resources */,
+				1F16F2512394682100C24FEA /* GoogleService-Info.plist in Resources */,
 				1F16F246239466F200C24FEA /* Assets.xcassets in Resources */,
 				1F16F244239466EC00C24FEA /* Main.storyboard in Resources */,
 			);
@@ -133,14 +232,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		34D6D940D6CB86F2FD918CA6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IITGTALKS/Pods-IITGTALKS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IITGTALKS/Pods-IITGTALKS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IITGTALKS/Pods-IITGTALKS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		869AD3CECFBDCB00C752E898 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IITGTALKS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1F16F235239466EC00C24FEA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F16F241239466EC00C24FEA /* ViewController.swift in Sources */,
+				1F16F241239466EC00C24FEA /* SignUpViewController.swift in Sources */,
+				1F517C62239FD74A001BFFDA /* UploadViewController.swift in Sources */,
+				1F50431123AAC0CE0012B12B /* PostPageViewController.swift in Sources */,
 				1F16F23D239466EC00C24FEA /* AppDelegate.swift in Sources */,
+				1FCE9EBC239DA0420001FCC6 /* MainTabBarController.swift in Sources */,
+				1FCE9EBE239DA4B00001FCC6 /* ProfileViewController.swift in Sources */,
+				1F10A61523B3AF960087AEF2 /* CurrentUserProfile.swift in Sources */,
+				1FEC24422394FF3D002FE991 /* LoginViewController.swift in Sources */,
 				1F16F23F239466EC00C24FEA /* SceneDelegate.swift in Sources */,
+				1F3D279323A39E3E0093B44B /* Posts.swift in Sources */,
+				1F50430F23AA9D8C0012B12B /* globalFunctions.swift in Sources */,
+				1F3D279523A3A7410093B44B /* PostTableViewCell.swift in Sources */,
+				1F10A61023B394C40087AEF2 /* Comments.swift in Sources */,
+				1F10A61323B396670087AEF2 /* CommentsTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,9 +434,11 @@
 		};
 		1F16F24E239466F200C24FEA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6DFF4020DF92E8E334740EE /* Pods-IITGTALKS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QC9853NR22;
 				INFOPLIST_FILE = IITGTALKS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -299,9 +453,11 @@
 		};
 		1F16F24F239466F200C24FEA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A69776BAD78E21B7E1025D9 /* Pods-IITGTALKS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QC9853NR22;
 				INFOPLIST_FILE = IITGTALKS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -18,6 +18,42 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let _ = (scene as? UIWindowScene) else { return }
+        
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        appDelegate.window = self.window
+        
+        
+          let appearance = UINavigationBarAppearance()
+
+          // title color
+          appearance.titleTextAttributes = [.foregroundColor: UIColor.label]
+
+          // large title color
+          appearance.largeTitleTextAttributes = [.foregroundColor: UIColor.label]
+
+          // background color
+          appearance.backgroundColor = .secondarySystemBackground
+
+          // bar button styling
+          let barButtonItemApperance = UIBarButtonItemAppearance()
+          barButtonItemApperance.normal.titleTextAttributes = [.foregroundColor: UIColor.label]
+
+          appearance.backButtonAppearance = barButtonItemApperance
+
+          // set the navigation bar appearance to the color we have set above
+          UINavigationBar.appearance().standardAppearance = appearance
+
+          // when the navigation bar has a neighbouring scroll view item (eg: scroll view, table view etc)
+          // the "scrollEdgeAppearance" will be used
+          // by default, scrollEdgeAppearance will have a transparent background
+          UINavigationBar.appearance().scrollEdgeAppearance = appearance        
+        
+        
+        self.window?.rootViewController = MainTabBarController()
+        
+        
+        
+
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
